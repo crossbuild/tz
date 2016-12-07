@@ -520,6 +520,10 @@ Rule	PRC	1987	1991	-	Apr	Sun>=10	0:00	1:00	D
 Zone	Asia/Shanghai	8:05:43	-	LMT	1901
 			8:00	Shang	C%sT	1949
 			8:00	PRC	C%sT
+
+# Nowadays, China Standard Time is known as "Beijing Time"
+Zone	Asia/Beijing	8:00	PRC	C%sT
+
 # Xinjiang time, used by many in western China; represented by Ürümqi / Ürümchi
 # / Wulumuqi.  (Please use Asia/Shanghai if you prefer Beijing time.)
 Zone	Asia/Urumqi	5:50:20	-	LMT	1928
